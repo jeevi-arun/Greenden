@@ -17,30 +17,42 @@ Includes navigation between Home and Products pages.
 
 🏡 Header Section
 Contains headline text and a CTA button.
+
 On mobile and tablet, only content and button are shown.
+
 On desktop, a plant image is displayed beside the text.
+
 Text size increases for better readability on larger screens.
 
 🪴 About Us Section
 Arranged in a row layout on mobile and tablet.
+
 Automatically switches to a column layout on desktop.
 
 🏆 Bestseller Section
 Uses CSS Grid for layout.
+
 Shows 2 products per row on mobile and tablet.
+
 Displays 4 products per row on desktop.
+
 Includes subtle hover animation effects on product images.
 
 🔁 Page Navigation
 Clicking on Products in the navbar takes the user to the Products Page.
+
 Home link in the navbar returns to the main landing page.
 
 💻 Technologies Used
 HTML5
+
 Tailwind CSS
 
 📱 Responsive Design
 The layout adapts seamlessly across screen sizes:
+
 Mobile
+
 Tablet
+
 Desktop
