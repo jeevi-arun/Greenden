@@ -10,7 +10,9 @@ The Greenden website is a clean, responsive layout showcasing a plant-based stor
 Responsive navigation bar.
 
 Shows a menu icon on mobile and tablet views.
+
 Displays all menu options directly on desktop.
+
 Includes navigation between Home and Products pages.
 
 🏡 Header Section
