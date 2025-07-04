@@ -5,7 +5,6 @@ A responsive plant shop landing page built using HTML and Tailwind CSS. This pro
 The Greenden website is a clean, responsive layout showcasing a plant-based storefront. It includes sections like navigation, a header banner, about us, bestsellers, and links to a products page. Designed to adapt across devices with visual and interactive enhancements.
 
 🚀 Features
-
 🧭 Navbar
 Responsive navigation bar.
 
