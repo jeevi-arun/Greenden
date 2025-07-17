@@ -14,7 +14,7 @@
     
         <h1 class="text-xl">GREENDEN</h1>
 
-   <svg class="h-6 w-6 md:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+   <svg  id="menu" class="h-6 w-6 md:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 </svg>
 
@@ -34,15 +34,39 @@
                 </li>
         </ul>
     </nav>
+
+       <!-- Sidebar-->
+<section id="side-nav" class="bg-green-100 fixed z-20 top-0 right-0 duration-1000" style="width: 50%; height: 100vh; right: -50%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+
+    <div class="text-right p-4 cursor-pointer">
+        <p id="close">X</p>
+    </div>
+    <ul class="flex flex-col items-center gap-5 ">
+            <li>
+                <a href="./index.html" class="hover:underline hover:text-black" >Home </a>
+
+                </li>
+
+             <li>
+                <a href="product.html" class="hover:underline hover:text-black" > Products</a>
+
+                </li>
+                 <li>
+                <a href="./contact.html" class="hover:underline hover:text-black" >Contact </a>
+
+                </li>
+        </ul>
+</section>
+
     <!-- Header -->
     <section class="text-center">
         <h1 class="font-bold text-3xl m-5">Our Products</h1>
-        <input type="text" placeholder="Search for  product..." class="border border-black p-2" style="width: 70%;">
+        <input type="text" id="input" placeholder="Search for  product..." class="border border-black p-2" style="width: 70%;">
     </section>
 
     <!-- Products -->
-     <section class="text-center">
-         <div class=" grid grid-cols-2 m-5 md:grid-cols-4 justify-center">
+     <section class="text-center" >
+         <div id="container" class=" grid grid-cols-2 m-5 md:grid-cols-4 justify-center">
             <div class="m-5">
                 <img src="./Images/img6 (1).jpg"class=" inline transform hover:-translate-y-2 shadow-lg" alt="Image"  >
                 <h1>Money plants</h1>
@@ -50,7 +74,7 @@
             </div>
             <div class="m-5">
                 <img src="./Images/img3.jpg" class=" inline transform hover:-translate-y-2 shadow-lg" alt="Image">
-                <h1></h1>Rose plants</h1>
+                <h1>Rose plants</h1>
                 <p>$25</p>
             </div>
             <div class="m-5">
@@ -63,8 +87,8 @@
                 <h1>Snake plants</h1>
                 <p>$20</p>
             </div>
-        </div>
-         <div class=" grid grid-cols-2 m-5 md:grid-cols-4 justify-center">
+        
+         
             <div class="m-5">
                 <img src="./Images/img6 (3).jpg"class=" inline transform hover:-translate-y-2 shadow-lg" alt="Image"  >
                 <h1>Cactus plants</h1>
@@ -96,6 +120,6 @@
             <p>@2020 greenday.com</p>
             </div>
           </section>
-    
+    <script src="product.js"></script>
 </body>
 </html>
